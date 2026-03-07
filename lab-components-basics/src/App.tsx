@@ -1,8 +1,8 @@
-const header = () => {
+const Header = () => {
   return (
     <>
       <h1>Labo 2</h1>
-      <h2></h2>
+      <h2>Basic components</h2>
     </>
   );
 };
@@ -10,7 +10,7 @@ const header = () => {
 function App() {
   return (
     <>
-      <header />
+      <Header />
     </>
   );
 }
