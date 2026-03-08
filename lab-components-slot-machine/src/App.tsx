@@ -1,5 +1,5 @@
 import SlotMachine from "./components/SlotMachine";
-
+import style from "./App.module.css";
 function App() {
   return (
     <>
