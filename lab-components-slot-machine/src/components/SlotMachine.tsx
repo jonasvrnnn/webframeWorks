@@ -16,7 +16,7 @@ const SlotMachine = ({ numberOfslots }: slotsProp): JSX.Element => {
           <Slot key={index} value={slot} />
         ))}
       </p>
-      {gewonnen ? <p>Je hebt gewonnen</p> : <p>Je hebt verloren</p>}
+      {gewonnen ? <p className={styles.won}>Je hebt gewonnen</p> : <p className={styles.los}>Je hebt verloren</p>}
     </>
   );
 };
