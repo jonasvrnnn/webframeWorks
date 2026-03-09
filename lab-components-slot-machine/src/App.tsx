@@ -5,7 +5,7 @@ function App() {
     <>
       <SlotMachine numberOfslots={3} />
       <SlotMachine numberOfslots={5} />
-      <SlotMachine numberOfslots={15} />
+      <SlotMachine numberOfslots={4} />
     </>
   );
 }
