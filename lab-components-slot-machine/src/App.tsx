@@ -1,12 +1,13 @@
-import slot1 from "./assets/cherry.png"
+import SlotMachine from "./components/SlotMachine";
+import style from "./App.module.css";
 function App() {
-
-
   return (
     <>
-
+      <SlotMachine numberOfslots={3} />
+      <SlotMachine numberOfslots={5} />
+      <SlotMachine numberOfslots={15} />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
