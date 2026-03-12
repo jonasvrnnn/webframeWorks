@@ -1,0 +1,6 @@
+.gif {
+  height: 400px;
+  padding: 5px;
+  background-image: url("./assets/funny.gif");
+  background-repeat: repeat;
+}
