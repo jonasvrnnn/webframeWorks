@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  text-align: center;
+  flex: 3;
+}
+.container button {
+  flex: 1;
+}
