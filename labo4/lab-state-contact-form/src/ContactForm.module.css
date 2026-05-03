@@ -1,0 +1,10 @@
+.form {
+  height: 10rem;
+  width: 30rem;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  gap: 0.5rem;
+}
+.form > button {
+  grid-column: 1/5;
+}

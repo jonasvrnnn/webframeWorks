@@ -1,17 +1,20 @@
-import { useState } from "react";
+import React, { useRef } from "react";
 
-function App() {
-  let [name, setName] = useState("");
+const App = () => {
+  const myRef = useRef(0);
 
-  const handleChange: React.ChangeEventHandler<HTMLInputElement> = (event) => {
-    setName(event.target.value);
+  const handleClick = () => {
+    myRef.current += 1;
+    console.log(myRef.current);
   };
 
   return (
     <>
-      <input type="text" onChange={handleChange} />
-      <p>You typed: {name}</p>
+      <h1>Counter</h1>
+      <p>{myRef.current}</p>
+      <button onClick={handleClick}>Increment</button>
     </>
   );
-}
+};
+
 export default App;

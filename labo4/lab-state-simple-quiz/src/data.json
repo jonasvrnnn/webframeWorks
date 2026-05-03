@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the answer to life, the universe and everything?",
+    "options": ["21", "36", "42", "84"],
+    "correctAnswer": "42"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+    "correctAnswer": "Mars"
+  },
+  {
+    "question": "Which programming language is known for \"write once, run anywhere\"?",
+    "options": ["Python", "C#", "Java", "JavaScript"],
+    "correctAnswer": "Java"
+  },
+  {
+    "question": "Which animal is the largest mammal on Earth?",
+    "options": ["African Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+    "correctAnswer": "Blue Whale"
+  }
+]
